@@ -13,7 +13,7 @@
 
 CloutFront 배포를 생성하여 CloudFront에 어디로부터 콘텐츠를 전송하려고 하는지와 이러한 콘텐츠 전송을 추적 및 관리하는 방법에 대한 세부 정보를 알림. 그런 다음 CloudFront는 최종 사용자와 인접한 컴퓨터(엣지 서버)를 사용하여 사용자가 콘텐츠를 사용하거나 보고자 할 때 빠르게 전송한다.
 
-![스크린샷 2021-05-29 오후 3.51.18](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 3.51.18.png)
+![스크린샷 2021-05-29 오후 3.51.18](./Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 3.51.18.png)
 
 1. Amazon S3 버킷 또는 고유 HTTP 서버와 같은 오리진 서버를 지정하고, CloudFront는 이로부터 파일을 가져온 다음전 전 세계 CloudFront 엣지 로케이션에 배포.
 

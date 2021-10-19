@@ -12,7 +12,7 @@ EC2는 물리서버의 기능을 가상화했지만 실제 서버와 유사하�
 
 인스턴스는 시작한 순간부터 종료될 때까지 다음과 같은 다양한 상태를 가진다.
 
-![스크린샷 2021-05-29 오후 4.36.57](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 4.36.57.png)
+![스크린샷 2021-05-29 오후 4.36.57](./Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 4.36.57.png)
 
 ​												<b>< EC2 인스턴스의 수명 주기 > </b>
 
@@ -81,7 +81,7 @@ Amazon EBS를 지원하는 인승턴스 유형에만 해당됨.
 
 하지만 인스턴스 배치 그룹을 사용하면, 특정 요구 사항을 충족할 수 있도록 인스턴스를 좀 더 효율적으로 배치하고 활용할 수 있다.
 
-![스크린샷 2021-05-29 오후 4.52.20](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 4.52.20.png)
+![스크린샷 2021-05-29 오후 4.52.20](./Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-05-29 오후 4.52.20.png)
 
 ​												<B>< EC2 Placement Group ></B>
 

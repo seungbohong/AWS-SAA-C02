@@ -212,5 +212,4 @@ A. Create an Amazon CloudFront distribution and configure the ALB as an origin. 
 
 CloudFront는 low latency access를 제공한다 to both static and dynamic content for global users.
 
-그리고 Route53과 통합될수 있다.
-
+그리고 Route53과 통합될수 있다..

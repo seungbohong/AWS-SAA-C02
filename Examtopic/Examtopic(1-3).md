@@ -1,6 +1,6 @@
 ### 41. 
+<img width="679" alt="스크린샷 2021-10-23 오후 4 40 04" src="https://user-images.githubusercontent.com/45779378/138547443-bf497b6e-21a2-40ab-8fca-e98efa371620.png">
 
-![스크린샷 2021-10-22 오후 7.48.37](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 7.48.37.png)
 
 - 미국과 유렵에서 서비스를 제공
 - DB tier, Web server tier
@@ -17,8 +17,7 @@ DB slow ==> configure read replicas in one of a Europe Regions
 
 
 ### 42.
-
-![스크린샷 2021-10-22 오후 7.52.31](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 7.52.31.png)
+<img width="720" alt="스크린샷 2021-10-23 오후 4 40 20" src="https://user-images.githubusercontent.com/45779378/138547448-87ac8963-7bbd-4573-9835-7113a8a138af.png">
 
 - static website on-premises(company's server)
 - migrate to AWS
@@ -38,8 +37,7 @@ This will cache the static content around the world closer to users.
 
 
 ### 43.
-
-![스크린샷 2021-10-22 오후 7.57.36](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 7.57.36.png)
+<img width="689" alt="스크린샷 2021-10-23 오후 4 40 44" src="https://user-images.githubusercontent.com/45779378/138547455-35424031-72bb-4b18-941a-78b67d4285f7.png">
 
 - Design HPC based on Amazon Linux
 - workload stores and processes a large amount of things
@@ -53,8 +51,7 @@ Lustre actually stands for Linux and cluster ==> hence it's perfect HPC
 
 
 ### 44.
-
-![스크린샷 2021-10-22 오후 7.59.36](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 7.59.36.png)
+<img width="684" alt="스크린샷 2021-10-23 오후 4 41 04" src="https://user-images.githubusercontent.com/45779378/138547461-77edf719-7688-4429-9ed8-952ae50bb67e.png">
 
 - public-facing website running on EC2 instance as a Microsoft Active Directory domain controller
 - recommend a new design would improve security and minimize Admin demand
@@ -70,8 +67,7 @@ Minimize admin = use AWS Directory Service
 
 
 ### 45.
-
-![스크린샷 2021-10-22 오후 8.03.16](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.03.16.png)
+<img width="665" alt="스크린샷 2021-10-23 오후 4 41 24" src="https://user-images.githubusercontent.com/45779378/138547466-ea834059-6be9-449d-9dca-5b03f47f2f0a.png">
 
 - static website within an S3 bucket
 - ensure that data can be recovered in case of accidential deletion.
@@ -85,8 +81,7 @@ S3 Versioning provides the ability to recover from both unintended user actions 
 
 
 ### 46.
-
-![스크린샷 2021-10-22 오후 8.05.50](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.05.50.png)
+<img width="679" alt="스크린샷 2021-10-23 오후 4 41 36" src="https://user-images.githubusercontent.com/45779378/138547471-27de9333-339b-461c-95af-94bb74aa872c.png">
 
 - OLTP(온라인 거래 프로세싱) on RDS MySQL DB instance
 - new reporting tool that will access the same data.
@@ -101,8 +96,8 @@ Why not C? : RDS is a managed service and AWS handles the scaling part.
 
 
 ### 47.
+<img width="674" alt="스크린샷 2021-10-23 오후 4 41 52" src="https://user-images.githubusercontent.com/45779378/138547476-14d9e295-9b53-420a-8b60-842284ad4cec.png">
 
-![스크린샷 2021-10-22 오후 8.09.46](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.09.46.png)
 
 - a small data with no virtualized compute resources
 - stored on an NFS volume
@@ -123,8 +118,7 @@ small data closet with no virtualized compute resources ==  ==the need for onsit
 
 
 ### 48.
-
-![스크린샷 2021-10-22 오후 8.15.28](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.15.28.png)
+<img width="684" alt="스크린샷 2021-10-23 오후 4 42 06" src="https://user-images.githubusercontent.com/45779378/138547479-37060032-4d36-49ef-a4c6-bcbcbe467c17.png">
 
 - multiple EC2 instances 
 
@@ -139,8 +133,7 @@ ACID storage ==> EFS
 
 
 ### 49.
-
-![스크린샷 2021-10-22 오후 8.18.34](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.18.34.png)
+<img width="658" alt="스크린샷 2021-10-23 오후 4 42 20" src="https://user-images.githubusercontent.com/45779378/138547481-760490a7-9cd2-42bd-b88c-b888cbeadbd7.png">
 
 - limit access to specific services or actions
 - accounts belong to a large org in AWS Organizations.
@@ -157,8 +150,7 @@ SCPs(Service Control Policies)
 
 
 ### 50.
-
-![스크린샷 2021-10-22 오후 8.23.53](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.23.53.png)
+<img width="717" alt="스크린샷 2021-10-23 오후 4 42 50" src="https://user-images.githubusercontent.com/45779378/138547495-185a396f-e8e1-436e-a0b4-2f302a500d85.png">
 
 - 매일밤 로그 프로세싱을 필요로함
 - 로그의 숫자와 사이즈는 알려지지 않고 24시간만 운영할 계획이다.

@@ -1,4 +1,4 @@
-### 4. ![스크린샷 2021-10-19 오후 9.15.25](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-19 오후 9.15.25.png)
+### 4. <img width="774" alt="스크린샷 2021-10-23 오전 10 42 30" src="https://user-images.githubusercontent.com/45779378/138537661-737fc850-54b4-41e2-87f8-1fbe04e4a395.png">
 
 - Serverfarm : 컴퓨터 서버들의 모임, 수천개의 컴퓨터로 이루어짐
 

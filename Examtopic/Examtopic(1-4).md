@@ -1,4 +1,5 @@
-### 51.![스크린샷 2021-10-22 오후 8.31.04](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.31.04.png)
+### 51.
+<img width="663" alt="스크린샷 2021-10-23 오후 4 45 58" src="https://user-images.githubusercontent.com/45779378/138547567-e8d09c35-c329-4be3-bf05-3b93a7099e5b.png">
 
 - EC2 instances stores data in an EBS volume.
 - created a second EC2 instance and EBS volume in another AZ with ALB
@@ -14,7 +15,8 @@ multiple instances ==> EFS is better.
 
 
 
-### 52.![스크린샷 2021-10-22 오후 8.30.34](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.30.34.png)
+### 52.
+<img width="675" alt="스크린샷 2021-10-23 오후 4 46 11" src="https://user-images.githubusercontent.com/45779378/138547571-f32a1066-906f-4258-b378-c44970b42851.png">
 
 - S3 to store images uploaded by its users
 - encrypted at rest in Amazon S3
@@ -34,8 +36,8 @@ SSE-C: You manage both data key and master key
 
 
 ### 53.
+<img width="664" alt="스크린샷 2021-10-23 오후 4 46 31" src="https://user-images.githubusercontent.com/45779378/138547581-aee056b6-4366-4da5-b139-11f750bd5403.png">
 
-![스크린샷 2021-10-22 오후 8.40.38](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 8.40.38.png)
 
 - E-Commerce on EC2
 - stateless web tier that requires minimum of 10 instances and peak of 250 instances to support. 
@@ -51,8 +53,7 @@ The answer is D
 
 
 ### 54.
-
-![스크린샷 2021-10-22 오후 10.39.39](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 10.39.39.png)
+<img width="684" alt="스크린샷 2021-10-23 오후 4 46 46" src="https://user-images.githubusercontent.com/45779378/138547588-074b5a24-8e3a-4aa8-a6e1-d10c761d8911.png">
 
 - API in a VPC behind ALB
 - NAT gateway
@@ -71,8 +72,7 @@ D : with PrivateLink I can add the LB
 
 
 ### 55.
-
-![스크린샷 2021-10-22 오후 10.46.45](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 10.46.45.png)
+<img width="674" alt="스크린샷 2021-10-23 오후 4 47 01" src="https://user-images.githubusercontent.com/45779378/138547600-2f7c3afd-3beb-4c87-93c2-2b6811c91f77.png">
 
 - 750tb transferring filesystem to Amazon S3 Glacier
 - must avoid saturating the branch office's low-bandwidth internet connection
@@ -87,8 +87,8 @@ Snowball available size are 50-80TB
 
 
 ### 56.
+<img width="685" alt="스크린샷 2021-10-23 오후 4 47 13" src="https://user-images.githubusercontent.com/45779378/138547605-615daf8e-7ee0-4663-bacc-9f39ef3d3d80.png">
 
-![스크린샷 2021-10-22 오후 10.50.36](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-22 오후 10.50.36.png)
 
 - two-tier app
 - EC2 in the public subnet 
@@ -105,8 +105,7 @@ for high availability, the Load Balancer and Auto Scailing should span across mu
 
 
 ### 57.
-
-![스크린샷 2021-10-23 오전 1.11.41](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-23 오전 1.11.41.png)
+<img width="681" alt="스크린샷 2021-10-23 오후 4 47 31" src="https://user-images.githubusercontent.com/45779378/138547628-a387f36e-4d96-4337-a0f7-b64e492ae400.png">
 
 - A3 bucket for storage
 - prevent on accidental deletion of the documents and ensure all versions of the docu are available
@@ -121,8 +120,8 @@ all versions available ==> keep historical versions of an object ==> versioning
 
 
 ### 58.
+<img width="665" alt="스크린샷 2021-10-23 오후 4 47 46" src="https://user-images.githubusercontent.com/45779378/138547637-dc7ad284-166a-4ba8-bd2d-68617fcee9f1.png">
 
-![스크린샷 2021-10-23 오전 1.14.51](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-23 오전 1.14.51.png)
 
 - performance problems
 - perform an analysis of the log file to troubleshoot further
@@ -147,8 +146,7 @@ presigned URL은 지정된 기간 동안만 유효하다.
 
 
 ### 59.
-
-![스크린샷 2021-10-23 오전 1.22.53](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-23 오전 1.22.53.png)
+<img width="708" alt="스크린샷 2021-10-23 오후 4 48 00" src="https://user-images.githubusercontent.com/45779378/138547642-00f62cc5-3b8b-41c3-bd23-7e12ede58195.png">
 
 - two-tier web app
 - EC2 in public subnets
@@ -166,8 +164,7 @@ web sg 1433 ==> sql database tier
 
 
 ### 60.
-
-![스크린샷 2021-10-23 오전 1.26.44](../../../Library/Application Support/typora-user-images/스크린샷 2021-10-23 오전 1.26.44.png)
+<img width="685" alt="스크린샷 2021-10-23 오후 4 48 14" src="https://user-images.githubusercontent.com/45779378/138547645-cbf064b2-e9f3-47b1-b020-6ce7b09cdcde.png">
 
 - attach IAM policies ==> existing IAM roles to enable faster and agility
 - but could attach the existing admin policy

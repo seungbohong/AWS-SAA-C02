@@ -1,6 +1,5 @@
 ### 28.
-
-![스크린샷 2021-10-20 오후 11.36.02](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-20 오후 11.36.02.png)
+<img width="685" alt="스크린샷 2021-10-23 오후 4 31 50" src="https://user-images.githubusercontent.com/45779378/138547225-fb43062f-ffa3-417b-ab65-713c6563ef51.png">
 
 - 분석 데이터 저장해옴 RDS instance에다가.
 - API를 사용해서 사용자들이 접근할수 있도록 함
@@ -18,8 +17,8 @@ Lambda는 수평으로 늘어나기 때문에 리퀘스트가 폭증해도 관�
 
 
 ### 29.
-
-![스크린샷 2021-10-21 오전 12.09.43](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 12.09.43.png)
+<img width="676" alt="스크린샷 2021-10-23 오후 4 32 45" src="https://user-images.githubusercontent.com/45779378/138547246-d9651dc2-3fe4-49c5-9431-08583306333a.png">
+>
 
 - 매월초에 영업 리포트를 만들어야 함
 - 20개의 ec2 인스턴스들을 실행한다.
@@ -37,8 +36,7 @@ Reserved Instances는 정기적으로 운영되야 하므로 불가능하다.
 
 
 ### 30.
-
-![스크린샷 2021-10-21 오전 12.13.56](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 12.13.56.png)
+<img width="656" alt="스크린샷 2021-10-23 오후 4 33 14" src="https://user-images.githubusercontent.com/45779378/138547258-877f82ec-6dce-4ce8-9d5c-dd6bdda24b73.png">
 
 - 하나의 AZ에 여러개의 EC2 인스턴스
 - 여러명의 게임, Layer4에서 유저들끼리 커뮤니케이트
@@ -55,8 +53,7 @@ The answer is C, E
 
 
 ### 31. 
-
-![스크린샷 2021-10-21 오전 12.20.11](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 12.20.11.png)
+<img width="662" alt="스크린샷 2021-10-23 오후 4 33 54" src="https://user-images.githubusercontent.com/45779378/138547295-83f03dfd-9e33-4f7f-ad52-1f578962f9ad.png">
 
 - web app (backed bay RDS MySQL DB)
 - automated backups run daily not encrypted
@@ -71,8 +68,7 @@ encrypted db에서만 encrypted backup/snashot을 얻을 수 있다. ==> 그러�
 ### 
 
 ### 32.
-
-![스크린샷 2021-10-21 오전 12.32.51](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 12.32.51.png)
+<img width="677" alt="스크린샷 2021-10-23 오후 4 34 25" src="https://user-images.githubusercontent.com/45779378/138547308-e98e2b89-360f-412d-99f0-d5890d9d0de5.png">
 
 - 웹사이트, 다수의 ALB 뒤로
 - 컨텐츠에 대해 전세계에서 다른 배포 저작권을 가지고 있다.
@@ -95,8 +91,8 @@ The answer is C.
 
 
 ### 33.
+<img width="633" alt="스크린샷 2021-10-23 오후 4 34 57" src="https://user-images.githubusercontent.com/45779378/138547317-0d18b63a-942a-43a7-845f-f34900e3c2d0.png">
 
-![스크린샷 2021-10-21 오전 1.02.53](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 1.02.53.png)
 
 - 새로운 aws 계정 만듬
 - root user access를 보안을 유지 해야한다.
@@ -108,8 +104,8 @@ The answer is A, B
 
 
 ### 34.
+<img width="684" alt="스크린샷 2021-10-23 오후 4 35 30" src="https://user-images.githubusercontent.com/45779378/138547328-5a2abf11-be07-4239-bcf8-656fff00de0c.png">
 
-![스크린샷 2021-10-21 오전 1.44.48](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 1.44.48.png)
 
 - E-Commerce
 - 로그 데이터 S3에 백업
@@ -125,8 +121,7 @@ S3 Intelligent-Tiering is best for storage patterns which are unknown or changin
 
 
 ### 35.
-
-![스크린샷 2021-10-21 오전 1.50.35](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 1.50.35.png)
+<img width="675" alt="스크린샷 2021-10-23 오후 4 36 06" src="https://user-images.githubusercontent.com/45779378/138547336-c2c6f6e5-ea95-4c83-a107-ab92909773c1.png">
 
 - EC2 instance in an ASG behind an ALB
 - CloudFront distribution, AWS WAF to protect aginst SQL injection attacks
@@ -148,8 +143,7 @@ INCORRECT: "Modify the security groups for the EC2 instances in the target group
 
 
 ### 36.
-
-![스크린샷 2021-10-21 오전 2.05.49](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 2.05.49.png)
+<img width="678" alt="스크린샷 2021-10-23 오후 4 36 37" src="https://user-images.githubusercontent.com/45779378/138547345-917691bd-3f9d-4bac-87cb-5ce929cd49aa.png">
 
 - ​    design two-step order process
 - first step : 동기적, 적은 지연
@@ -167,8 +161,7 @@ not C because SNS does not guarantee orderingm, if it were an SNS FIFO topic the
 
 
 ### 37.
-
-![스크린샷 2021-10-21 오전 2.14.58](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 2.14.58.png)
+<img width="686" alt="스크린샷 2021-10-23 오후 4 37 09" src="https://user-images.githubusercontent.com/45779378/138547362-9e16ccd8-f57d-4dbf-accd-39842601d7e6.png">
 
 - two-tier architecture includes a web layer and database layer
 - vulnerable to cross-site scripting(XSS) attacks
@@ -184,8 +177,8 @@ WAF is tightly integrated with Application Load Balancer not CLB
 
 
 ### 38.
+<img width="682" alt="스크린샷 2021-10-23 오후 4 37 40" src="https://user-images.githubusercontent.com/45779378/138547375-9eb93e5e-8d42-4fe8-99b7-ca54606854ad.png">
 
-![스크린샷 2021-10-21 오전 2.18.22](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 2.18.22.png)
 
 - RDS MySQL Multi-AZ DB instance 데이터 스토리지의 이동.
 - db instance는 fetch data시에 느려진다.
@@ -206,8 +199,8 @@ Read replicas are used for SELECT only kind of statements.
 
 
 ### 39.
+<img width="674" alt="스크린샷 2021-10-23 오후 4 38 18" src="https://user-images.githubusercontent.com/45779378/138547390-7e052832-8d17-4b1b-9a04-a3598c36eff2.png">
 
-### ![스크린샷 2021-10-21 오전 2.23.22](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 2.23.22.png)
 
 - EC2 instances across multi-AZ
 - ASG behind ALB
@@ -225,8 +218,7 @@ target tracking ==> 평균 CPU 사용률을 설정할 수 있다. 이후 asg는 
 
 
 ### 40.
-
-![스크린샷 2021-10-21 오전 2.31.28](../Library/Application Support/typora-user-images/스크린샷 2021-10-21 오전 2.31.28.png)
+<img width="682" alt="스크린샷 2021-10-23 오후 4 38 50" src="https://user-images.githubusercontent.com/45779378/138547407-22d70738-0faa-4404-8847-fcb0bbc673a6.png">
 
 - instances can be scalable
 - asg scale up to 20instances during work hours. scale down to 2instances overnight

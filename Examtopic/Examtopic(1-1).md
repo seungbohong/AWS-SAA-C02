@@ -204,7 +204,7 @@ Kinesis Data Stream enables big data's real-time processing.
 - EC2인스턴스들이 웹사이트를 운영, behind an ALB==>scalable
 - mix of dynamic and static content.
 - User around the globe said the website is slow
-- 어떤 방법이 웹사이트의 퍼포먼스를 발전시킬것인가.
+- 어떤 방법이 웹사이트의 퍼포먼스를 발전시킬것인가..
 
 
 

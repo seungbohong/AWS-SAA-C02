@@ -1,6 +1,5 @@
 ### 71.
-
-![스크린샷 2021-10-26 오전 1.27.35](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.27.35.png)
+<img width="794" alt="스크린샷 2021-10-26 오전 2 24 26" src="https://user-images.githubusercontent.com/45779378/138741711-7d496dd4-103c-4d05-bd7a-7184cad8f187.png">
 
 - videos real time
 - available on demand
@@ -17,8 +16,7 @@ You can use CloudFront to deliver video on demand (VOD) or live streaming video 
 
 
 ### 72.
-
-![스크린샷 2021-10-26 오전 1.39.27](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.39.27.png)
+<img width="762" alt="스크린샷 2021-10-26 오전 2 24 51" src="https://user-images.githubusercontent.com/45779378/138741763-9efe3fb7-61ce-4a4f-8934-7522168bb897.png">
 
 - 3 tier image sharing app
 - EC2 instance for the front-end layer, another for back-end tier, and a third for the MySQL database.
@@ -35,8 +33,7 @@ highly available ==> "Multi AZ"
 
 
 ### 73.
-
-![스크린샷 2021-10-26 오전 1.38.57](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.38.57.png)
+<img width="782" alt="스크린샷 2021-10-26 오전 2 25 07" src="https://user-images.githubusercontent.com/45779378/138741805-68c6b83c-31da-4943-8fcd-e869ebc358f6.png">
 
 - 4hours every night
 - time to complete jobs is expected to remain constant
@@ -58,8 +55,7 @@ D==> (옛날기준 정답)O : Scheduled Reserved Instances라면 정해진 시�
 
 
 ### 74.
-
-![스크린샷 2021-10-26 오전 1.46.36](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.46.36.png)
+<img width="772" alt="스크린샷 2021-10-26 오전 2 25 30" src="https://user-images.githubusercontent.com/45779378/138741853-a0910d13-3a18-400f-8da9-66fbe7f2d665.png">
 
 - 유저 데이터를 캡쳐해서 저장한다.
 - static이다 EC2
@@ -80,8 +76,7 @@ D is the answer.
 
 
 ### 75.
-
-![스크린샷 2021-10-26 오전 1.52.54](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.52.54.png)
+<img width="786" alt="스크린샷 2021-10-26 오전 2 25 44" src="https://user-images.githubusercontent.com/45779378/138741894-b79d10a3-7083-4ac7-ad05-6d40e92b6b29.png">
 
 - managed storage solution
 - HPC
@@ -101,8 +96,7 @@ HPC ==> FSx for Lustre, but isn't supported by Fargate for now. but "establish a
 
 
 ### 76.
-
-![스크린샷 2021-10-26 오전 1.56.51](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 1.56.51.png)
+<img width="789" alt="스크린샷 2021-10-26 오전 2 25 57" src="https://user-images.githubusercontent.com/45779378/138741923-7d8c29aa-8d3f-4093-84f6-6ac9cad1a3ac.png">
 
 - multi-tier architecture
 - most viable multi-tier option
@@ -119,8 +113,7 @@ Athena with S3 can store and retrieve the data and also can access from REST API
 
 
 ### 77.
-
-![스크린샷 2021-10-26 오전 2.04.32](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 2.04.32.png)
+<img width="781" alt="스크린샷 2021-10-26 오전 2 26 09" src="https://user-images.githubusercontent.com/45779378/138741945-db750bb9-9630-4808-a556-6f5c76ae0219.png">
 
 - scalable
 - resilient against malicious internet activity and attacks
@@ -134,8 +127,7 @@ protect against malicious IP ==> AWS WAF
 
 
 ### 78.
-
-### ![스크린샷 2021-10-26 오전 2.06.26](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 2.06.26.png)
+<img width="783" alt="스크린샷 2021-10-26 오전 2 26 23" src="https://user-images.githubusercontent.com/45779378/138741975-5c5371f4-89ba-4727-b477-501d8a5ec33d.png">
 
 - AWS Lambda Functions
 - DB credentials remove from the source code
@@ -148,8 +140,7 @@ store credential database & associate the Lamda function with a role that can re
 
 
 ### 79.
-
-![스크린샷 2021-10-26 오전 2.10.59](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 2.10.59.png)
+<img width="776" alt="스크린샷 2021-10-26 오전 2 26 34" src="https://user-images.githubusercontent.com/45779378/138742007-46c55178-5516-49aa-8e88-7322e71e7d4f.png">
 
 - on-premise
 - keep records indefinitely
@@ -169,8 +160,7 @@ granular audit access ==> CloudTrail S3 Data events
 
 
 ### 80. 
-
-### ![스크린샷 2021-10-26 오전 2.18.50](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-26 오전 2.18.50.png)
+<img width="769" alt="스크린샷 2021-10-26 오전 2 26 45" src="https://user-images.githubusercontent.com/45779378/138742029-26275440-55be-41ea-8390-16a4d7e65a28.png">
 
 - S3 secondary copy (on-premises dataset)
 - rarely need to access this copy

@@ -1,15 +1,12 @@
 ### 81.
-
-![스크린샷 2021-10-27 오전 1.12.23](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.12.23.png)
+<img width="764" alt="스크린샷 2021-10-27 오전 2 10 51" src="https://user-images.githubusercontent.com/45779378/138927691-709ebf98-28bb-4b9f-8e40-bc3790c6ecb0.png">
 
 - S3 bucket
 - with SQS queue
 - receive events when new objects are created
 - must remain intact
-
-![스크린샷 2021-10-27 오전 1.28.15](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.28.15.png)
-
-
+- 
+<img width="827" alt="스크린샷 2021-10-27 오전 2 11 02" src="https://user-images.githubusercontent.com/45779378/138927721-24cfb16f-7bf2-4b0c-be64-aa2bafd92a46.png">
 
 The answer is D.
 
@@ -22,8 +19,7 @@ C가 아닌 이유 : sns 사용시 poll을 할 필요가 없다.
 
 
 ### 82.
-
-![스크린샷 2021-10-27 오전 1.32.31](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.32.31.png)
+<img width="795" alt="스크린샷 2021-10-27 오전 2 11 18" src="https://user-images.githubusercontent.com/45779378/138927765-acd3e1c4-c559-41ed-bbe5-2c3b795b1201.png">
 
 - EC2 instances in private subnets
 - needs to access DynamoDB table
@@ -45,8 +41,7 @@ VPC endpoint for making sure it does not leave AWS network.
 
 
 ### 83.
-
-![스크린샷 2021-10-27 오전 1.35.48](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.35.48.png)
+<img width="786" alt="스크린샷 2021-10-27 오전 2 14 01" src="https://user-images.githubusercontent.com/45779378/138928175-c7a21de5-878b-4da4-b4bb-95f99ca7a9c7.png">
 
 - fears the database may not handle the new load the following month because  the single RDS for MySQL instance has triggered alarms related to resource exhaustion due to read requests.
 
@@ -57,8 +52,7 @@ A is correct. ==> typical use case for read replicas
 
 
 ### 84.
-
-![스크린샷 2021-10-27 오전 1.39.23](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.39.23.png)
+<img width="789" alt="스크린샷 2021-10-27 오전 2 11 38" src="https://user-images.githubusercontent.com/45779378/138927809-daa02c71-3633-428b-a345-13d8be2aa244.png">
 
 - store video archives in AWS
 - cost-effective, rarely need to restore
@@ -75,8 +69,7 @@ S3 Glacier is the cheapest option
 
 
 ### 85.
-
-![스크린샷 2021-10-27 오전 1.43.15](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.43.15.png)
+<img width="788" alt="스크린샷 2021-10-27 오전 2 12 06" src="https://user-images.githubusercontent.com/45779378/138927875-180e1848-9bda-40e8-9327-25f9954bcd09.png">
 
 - VPC with multi private subnets in multi-AZ and one public subnet in one of the multi-AZ
 - public subnet ==> launch a NAT gateway
@@ -94,8 +87,7 @@ A looks good but C provide more HA than A
 
 
 ### 86.
-
-![스크린샷 2021-10-27 오전 1.48.14](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.48.14.png)
+<img width="786" alt="스크린샷 2021-10-27 오전 2 12 16" src="https://user-images.githubusercontent.com/45779378/138927905-9c763acb-290c-49d8-84b5-6d453877685c.png">
 
 - multiple copies be stored in different locations
 - each record must be stored for 7years
@@ -116,8 +108,7 @@ after 30days ==> Glacier using lifecycle policy
 
 
 ### 87.
-
-### ![스크린샷 2021-10-27 오전 1.53.17](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.53.17.png)
+<img width="782" alt="스크린샷 2021-10-27 오전 2 12 23" src="https://user-images.githubusercontent.com/45779378/138927919-4c6eeaea-de5d-4af5-9101-c4886c0e59f7.png">
 
 - centralize
 - EC2 instances with ensuring all instances provisioned through EC2 ASG successfully send reports to the system as soon as they are launched
@@ -132,8 +123,7 @@ Lifecycle hooks allow you to control what happens when your EC2 instances are la
 
 
 ### 88. 
-
-![스크린샷 2021-10-27 오전 1.58.34](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 1.58.34.png)
+<img width="789" alt="스크린샷 2021-10-27 오전 2 12 32" src="https://user-images.githubusercontent.com/45779378/138927936-c21e5341-be30-4e0c-a397-9667438cfe6b.png">
 
 - hybrid cloud connectivity using AWS Direct Connect
 - migrating data to S3
@@ -151,8 +141,7 @@ DataSync is for actual data transfer on-premises to AWS whereas Storage Gateway 
 
 
 ### 89.
-
-![스크린샷 2021-10-27 오전 2.03.17](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 2.03.17.png)
+<img width="786" alt="스크린샷 2021-10-27 오전 2 12 38" src="https://user-images.githubusercontent.com/45779378/138927944-da97dc86-e342-4bda-81d9-e080006f56c8.png">
 
 - 150TB data stored in on-premises ==> AWS Cloud within the next month
 - network connection allows up to 100Mbps during the night only
@@ -167,8 +156,7 @@ couple of AWS Snowball devices(80TB of each) should able to move 150TB easily.
 
 
 ### 90.
-
-![스크린샷 2021-10-27 오전 2.06.33](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-27 오전 2.06.33.png)
+<img width="771" alt="스크린샷 2021-10-27 오전 2 12 44" src="https://user-images.githubusercontent.com/45779378/138927966-563a0740-44e0-4cbe-b536-9679f85478e2.png">
 
 - EC2 instance in a private subnet
 - a large number of queries 

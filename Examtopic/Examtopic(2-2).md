@@ -169,4 +169,4 @@ The answers are B&E
 
 a large number of queries involve multiple table joins ==> RDS
 
-improve performance ==> Read replica
+improve performance ==> Read replica.

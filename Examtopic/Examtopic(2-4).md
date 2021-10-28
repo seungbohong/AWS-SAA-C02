@@ -1,6 +1,5 @@
 ### 101.
-
-![스크린샷 2021-10-28 오후 11.36.48](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-28 오후 11.36.48.png)
+<img width="786" alt="스크린샷 2021-10-29 오전 2 00 17" src="https://user-images.githubusercontent.com/45779378/139301654-c575077d-6084-4d5b-b7a2-cc87578ac351.png">
 
 - EC2 running on a private subnet ==> access a public website
 - doesn't want external website to see the EC2 instance IP address or Initiate connections to it
@@ -16,8 +15,7 @@ NAT gateway ==> instances in a private subnet can connect to services outside yo
 
 
 ### 102.
-
-![스크린샷 2021-10-28 오후 11.47.23](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-28 오후 11.47.23.png)
+<img width="787" alt="스크린샷 2021-10-29 오전 2 00 28" src="https://user-images.githubusercontent.com/45779378/139301683-3d28e09f-1858-43bc-8fb1-ea5a0ba0d961.png">
 
 - migrate 20TB of data from a data center to the AWS Cloud within 30days
 - network bandwidth is limited to 15 Mbps
@@ -32,8 +30,7 @@ The answer is A.
 
 
 ### 103.
-
-![스크린샷 2021-10-28 오후 11.49.13](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-28 오후 11.49.13.png)
+<img width="755" alt="스크린샷 2021-10-29 오전 2 02 56" src="https://user-images.githubusercontent.com/45779378/139302017-2886f842-a254-4b77-891b-1be8fbf756dc.png">
 
 - EC2 instances across two AZ
 - expecting spikes in traffic on specific holidays
@@ -48,8 +45,7 @@ Expect spikes ==> Scheduled Scaling
 
 
 ### 104.
-
-![스크린샷 2021-10-28 오후 11.51.07](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-28 오후 11.51.07.png)
+<img width="793" alt="스크린샷 2021-10-29 오전 2 00 59" src="https://user-images.githubusercontent.com/45779378/139301753-766ac8ff-437c-4d1b-b81c-c96e4991b033.png">
 
 - multi-tier app on AWS
 - front-end, backend tiers both run on EC2
@@ -67,8 +63,7 @@ same read query is performed over and over again ==> Elasticache
 
 
 ### 105.
-
-![스크린샷 2021-10-28 오후 11.55.03](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-28 오후 11.55.03.png)
+<img width="789" alt="스크린샷 2021-10-29 오전 2 01 08" src="https://user-images.githubusercontent.com/45779378/139301777-ce38db98-9a94-463b-b60d-de21e134936b.png">
 
 - on-premises data center that is running out of storage capacity
 - migrate to AWS while minimizing bandwidth costs
@@ -93,8 +88,7 @@ Cached Volumes offer a substantial cost savings on primary storage and minimize 
 
 
 ### 106.
-
-![스크린샷 2021-10-29 오전 1.39.26](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-29 오전 1.39.26.png)
+<img width="809" alt="스크린샷 2021-10-29 오전 2 01 17" src="https://user-images.githubusercontent.com/45779378/139301803-56de72a8-f0db-4f1c-acad-93bec094bb7b.png">
 
 - daily basis
 - S3, analyzed daily for one week
@@ -110,8 +104,7 @@ occasional analysis ==> OneZone IA
 
 
 ### 107.
-
-![스크린샷 2021-10-29 오전 1.42.48](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-29 오전 1.42.48.png)
+<img width="798" alt="스크린샷 2021-10-29 오전 2 01 25" src="https://user-images.githubusercontent.com/45779378/139301821-d9c1d688-262b-4de2-8a1f-97730f9bc4fa.png">
 
 - deliever files in S3 to certain users who do not have credentials
 - These users must be given access for a limited time
@@ -125,8 +118,7 @@ given access for a limited time ==> Grant-time-limited permissions ==> Presigned
 
 
 ### 108.
-
-![스크린샷 2021-10-29 오전 1.45.05](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-29 오전 1.45.05.png)
+<img width="794" alt="스크린샷 2021-10-29 오전 2 01 33" src="https://user-images.githubusercontent.com/45779378/139301836-db78d8f9-2d21-4cf2-a4c0-46b41ff28abd.png">
 
 - hybrid workload for data processing
 - accessed by on-premises app for local data processing using an NFS protocol
@@ -143,8 +135,7 @@ NFS ==> File Gateway
 
 
 ### 109.
-
-![스크린샷 2021-10-29 오전 1.49.16](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-29 오전 1.49.16.png)
+<img width="802" alt="스크린샷 2021-10-29 오전 2 01 42" src="https://user-images.githubusercontent.com/45779378/139301847-6819fb93-fe2c-4832-8562-7c48d96a8570.png">
 
 - sensitive data on S3
 - mandate encryption of data before sending it to S3
@@ -176,8 +167,7 @@ Client side encryption has two options: 1. AWS KMS CMK 2. customer application
 
 
 ### 110.
-
-![스크린샷 2021-10-29 오전 1.52.28](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-29 오전 1.52.28.png)
+<img width="796" alt="스크린샷 2021-10-29 오전 2 01 49" src="https://user-images.githubusercontent.com/45779378/139301856-bf9f6762-e333-4c79-bb5e-9f1a61b055f4.png">
 
 - static content from a public website hosted on EC2 instances to an S3 bucket.
 - CloudFront distribution will be used to deliver

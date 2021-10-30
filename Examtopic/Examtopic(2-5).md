@@ -23,7 +23,6 @@ but SQL ==> RDS only(DynamoDB is No SQL DB)
 - HA
 
 
-
 The answer is C.
 
 How to improve HA ==> current only EC2 instance in single AZ ==> Multi AZ with another EC2

@@ -1,6 +1,5 @@
 ### 111.
-
-![스크린샷 2021-10-30 오후 9.47.12](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 9.47.12.png)
+<img width="824" alt="스크린샷 2021-10-30 오후 10 51 46" src="https://user-images.githubusercontent.com/45779378/139535589-3b79d6b3-c9aa-432b-a3f3-a228d35ee049.png">
 
 - collect, process, store user's service usage data
 - enable the company to gather operational insights quickly using standard  SQL queries
@@ -17,8 +16,7 @@ but SQL ==> RDS only(DynamoDB is No SQL DB)
 
 
 ### 112.
-
-![스크린샷 2021-10-30 오후 9.51.30](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 9.51.30.png)
+<img width="798" alt="스크린샷 2021-10-30 오후 10 51 55" src="https://user-images.githubusercontent.com/45779378/139535594-afa5d13b-45d4-436c-af4b-16fbd48cd79a.png">
 
 - server content to global
 - store and accelerate the delivery of static content to its users by leveraging CloudFront with EC2
@@ -33,8 +31,7 @@ How to improve HA ==> current only EC2 instance in single AZ ==> Multi AZ with a
 
 
 ### 113.
-
-![스크린샷 2021-10-30 오후 9.57.09](/Users/hongseungbo/Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 9.57.09.png)
+<img width="813" alt="스크린샷 2021-10-30 오후 10 52 13" src="https://user-images.githubusercontent.com/45779378/139535605-e9fd2e6f-bb51-4c49-8c40-569e6ab4372d.png">
 
 - EC2 instance in VPC-A needs to access files in another EC2 instance in VPC-B
 
@@ -61,8 +58,7 @@ Private VIF works only in same aws account.
 
 
 ### 114.
-
-![스크린샷 2021-10-30 오후 10.04.19](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.04.19.png)
+<img width="758" alt="스크린샷 2021-10-30 오후 10 53 07" src="https://user-images.githubusercontent.com/45779378/139535655-951d3237-bbe8-48da-9488-69431951dc78.png">
 
 -  symmetric encryption keys in a HSM(Hardware Security Module)
 - migrate key management to AWS
@@ -83,8 +79,7 @@ So it's D.
 
 
 ### 115.
-
-![스크린샷 2021-10-30 오후 10.16.31](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.16.31.png)
+<img width="794" alt="스크린샷 2021-10-30 오후 10 52 29" src="https://user-images.githubusercontent.com/45779378/139535622-1691eb78-bf08-4051-9446-2e1b4ead0ef9.png">
 
 - reduce backup costs
 - simplify the on-premises backup infra and reduce costs by elimination the use of physical backup tapes
@@ -99,8 +94,7 @@ Tape Gateway enables you to replace using physical tapes on premises with virtua
 
 
 ### 116.
-
-![스크린샷 2021-10-30 오후 10.26.04](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.26.04.png)
+<img width="791" alt="스크린샷 2021-10-30 오후 10 53 21" src="https://user-images.githubusercontent.com/45779378/139535667-246c612e-4495-4bd6-91f1-92e048ae40b5.png">
 
 - an EC2 instance that requires a maximum of 200GB storage space.
 - used infrequently, with peaks during mornings and evenings.
@@ -122,8 +116,7 @@ GP2 supports up to 16,000 IOPS.
 
 
 ### 117.
-
-![스크린샷 2021-10-30 오후 10.32.04](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.32.04.png)
+<img width="792" alt="스크린샷 2021-10-30 오후 10 53 29" src="https://user-images.githubusercontent.com/45779378/139535676-8bb74ffb-924d-42a8-8ca5-77bd439f2d4d.png">
 
 - EC2 instances needs to access an S3
 - traffic cannot traverse the internet
@@ -141,8 +134,7 @@ So go for B.
 
 
 ### 118.
-
-![스크린샷 2021-10-30 오후 10.34.48](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.34.48.png)
+<img width="805" alt="스크린샷 2021-10-30 오후 10 53 37" src="https://user-images.githubusercontent.com/45779378/139535682-45f61868-f0af-48e2-afae-d0ed4ef4fa47.png">
 
 - read the files with low latency
 - migrate to AWS
@@ -157,8 +149,7 @@ concurrent access ==> EFS
 
 
 ### 119.
-
-![스크린샷 2021-10-30 오후 10.42.14](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.42.14.png)
+<img width="791" alt="스크린샷 2021-10-30 오후 10 53 45" src="https://user-images.githubusercontent.com/45779378/139535688-91578048-4138-4e3e-9906-1a79e0674e7b.png">
 
 - RDS based ==> performance degradation
 - read-only SQL queries triggered
@@ -172,8 +163,7 @@ RDS performance slow ==> Read replica!!!
 
 
 ### 120.
-
-![스크린샷 2021-10-30 오후 10.43.36](../../../../Library/Application Support/typora-user-images/스크린샷 2021-10-30 오후 10.43.36.png)
+<img width="800" alt="스크린샷 2021-10-30 오후 10 53 51" src="https://user-images.githubusercontent.com/45779378/139535692-8693fe38-5ca3-4ea2-8aa0-6ddbc6ec7a86.png">
 
 - EC2, RES
 - PII(personally identifiable information) be encrypted at rest.
